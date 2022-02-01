@@ -1,0 +1,23 @@
+/* primary text color #757575 */
+/* primary title color #212121 */
+/* active text color #2196F3 */
+:root {
+  --primary-text-color: #757575;
+  --primary-title-color: #212121;
+  --active-text-color: #2196f3;
+  --white-color: #ffffff;
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+}
+
+/* site navigation */
+
+/* hero */
+
+/* footer */
+.link {
+  font-style: normal;
+}
