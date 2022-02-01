@@ -14,10 +14,92 @@ body {
 }
 
 /* site navigation */
-
+.nav > .logo {
+  color: var(--primary-title-color);
+}
+.nav-item.current {
+  color: var(--active-text-color);
+}
+.nav-list {
+  list-style: none;
+}
+.nav-item {
+  color: var(--primary-title-color);
+}
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--active-text-color);
+}
+.header-contacts {
+  list-style: none;
+}
+.header-contacts .contacts {
+  color: var(--primary-text-color);
+}
+.header-contacts .contacts:hover,
+.header-contacts .contacts:focus {
+  color: var(--active-text-color);
+}
 /* hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--white-color);
+}
+.button {
+  background-color: var(--active-text-color);
+  color: var(--white-color);
+}
 
+/* advantages */
+.advantages-title {
+  color: var(--primary-title-color);
+}
+.advantages-list {
+  list-style: none;
+}
+.advantages-list-title {
+  color: var(--primary-title-color);
+}
+
+/* about */
+.about-title {
+  color: var(--primary-title-color);
+}
+.about-list {
+  list-style: none;
+}
+
+/* our team */
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  color: var(--primary-title-color);
+}
+.team-list {
+  list-style: none;
+}
+.team-name {
+  color: var(--primary-title-color);
+}
+.team-card {
+  background-color: var(--white-color);
+}
 /* footer */
-.link {
-  font-style: normal;
+.footer {
+  background: #2f303a;
+}
+.footer > .logo {
+  color: var(--white-color);
+}
+.address-list {
+  list-style: none;
+}
+.address-link {
+  color: var(--white-color);
+}
+.address-contacts {
+  color: rgba(255, 255, 255, 0.6);
 }
